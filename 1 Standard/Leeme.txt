@@ -1,0 +1,8 @@
+
+Para ciertos controles como ImagenList se necesita ir a Build option del proyecto e
+ir a linker settings pasar la libreria "gdi32" del proyecto a debug y release con la
+opcion "copy selected to"
+
+El que dice "gdi32" (para ImagenList) las otras librerias.
+
+otros componentes necesitan *.dll especificas que deben ser incorporadas al directorio del programa.
